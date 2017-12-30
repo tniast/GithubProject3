@@ -77,6 +77,7 @@ public class ItemDetailActivity extends AppCompatActivity {
             navigateUpTo(new Intent(this, ItemListActivity.class));
             return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 }
